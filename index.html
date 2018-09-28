@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+<title>our first project by html5</title>
+<!--this is how I linked css file-->
+<link rel="stylesheet" href="Css/index.Css"/>
+<link rel="stylesheet" href="Css/normalize.Css"/>
+<link rel="stylesheet" href="Css/font-awesome.min.css"/>
+<style>
+ 
+  body{
+    height: 4000px
+  }
+  .clearfix{
+    clear: both
+  }
+ .header .slider{
+background-image: url('image.jpg4');
+background-size: cover;
+
+ }
+  .header .slider .intro{
+    height: 600px;
+    text-align: center;
+    color:#ffffff;
+    padding-top: 300px;
+    
+  }
+  .header .slider .intro h2{
+  font-size: 40px;
+  margin: 0 auto;
+  width: 600px;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+ padding: 5px 0;
+ text-transform: uppercase
+ }
+ .header .slider .intro button{
+  background: none;
+  border: 3px solid white ;
+  margin-top: 20px;
+  padding: 20px;
+  color: white
+ }
+ .header .navbar ul li a {
+    text-decoration: none;
+    color: white
+}
+.header .navbar ul li a:hover{
+   color:#2db768}
+   .features{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px }
+.features .feat{
+    float: left;
+    width: 33.333333%;
+    height: 150px;
+    background-color:white}
+    
+.features .feat h2{
+    text-transform: uppercase;
+    color:#566366
+}
+.features .feat p{
+  color: #aeaeae;
+  line-height: 1.7;
+  padding: 0 20px 20px 0
+}
+
+.about-me{
+background-color:#f2f2f2;
+overflow: hidden
+}
+.about-me .ima{
+    float: left;
+    width: 40%;
+    margin: 0
+}
+.about-me .inf {
+    float: right;
+    width: 60%
+}
+.about-me .inf h2{
+  margin:40px 0 20px 40px;
+  text-transform: uppercase;
+  color: #566366
+}
+.about-me .inf p{
+  color:#919191;
+  margin:0 0 10px 40px ;
+  line-height: 1.7
+}
+.about-me .inf p:last-of-type{
+  margin-top: 30px;
+}
+.about-me .ima img{
+  width: 100%;
+}
+.about-me .inf .Hobbies{
+  overflow: hidden;
+  margin:40px 0 0 40px;
+}
+.about-me .inf .Hobbies .content{
+  float: left;
+  width: 50%;
+  min-height: 100px;
+  overflow: hidden
+}
+.about-me .inf .Hobbies .content .icon{
+  float: left;
+  width: 15%;
+}
+
+.about-me .inf .Hobbies .content .icon img{
+  width: 100%;
+  margin-right:30px;
+}
+.about-me .inf .Hobbies .content .text{
+   float: left;
+  width: 85%
+}
+
+.about-me .inf .Hobbies .content .text h3{
+   font-weight: bold;
+  text-transform: uppercase;
+  font-size: large;
+   color: #566366;
+}
+.about-me .inf .Hobbies .content .text p{
+  color:#979797;
+  line-height: 1.7;
+  margin: 10px 10px 10px 0
+}
+.My-skills {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden
+}
+.My-skills .skills h2{
+  color:#566366;
+}
+.My-skills .skills p{
+  color:#919191
+}
+.My-skills .skills p:last-of-type{
+  margin-top: 30px
+}
+.My-skills  .skills button{
+  background: none;
+  font-size: small;
+  padding: 10px 20px;
+  color:#2ecc71;
+  border: 1px solid #2ecc71;
+  margin-top: 30px
+}
+.My-skills  .skills,.My-skills .progress{
+  width: 45%;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+.txt-align{
+  text-align: center
+}
+.My-skills  .skills,.My-skills .progress {
+margin-left: 5%
+}
+.My-skills .progress .tech h3{
+  color:#566366;
+  margin-top: 30px
+}
+.My-skills .progress .tech div{
+  background-color:#f2f2f2 ;
+  height: 25px;
+}
+.My-skills .progress .tech div span{
+  background-color:#2ecc71;
+  display: block;
+  color: white;
+  text-align: right;
+  line-height: 25px
+}
+.Resume{
+background-color: #f2f2f2;
+padding-top: 40px;
+padding-bottom: 40px;
+
+
+}
+.Resume h2{
+  color:#566366;
+text-transform: uppercase;
+}
+.Resume p{
+  color:#919191;
+  line-height: 1.7
+}
+.Resume p:last-of-type{
+  text-align: center
+}
+.Resume button{
+   background: none;
+  font-size: small;
+  padding: 10px 20px;
+  color:#2ecc71;
+  border: 1px solid #2ecc71;
+  margin-top: 30px
+}
+.My-education {
+  padding-top: 30px;
+  padding-bottom: 30px;
+ overflow: hidden
+}
+.My-education  .main,.My-education .exp{
+  width:45%;
+  float: left;
+}
+.My-education  .main,.My-education .exp{
+  margin-left: 5%
+}
+
+.My-education  .main h2{
+  color:#566366;
+  text-transform: uppercase;
+}
+.My-education  .main p{
+ color:#919191;
+  line-height: 1.7 
+}
+
+.My-education .mus{
+  margin-left: 17%;
+width: 33%;
+}
+.My-education  .mah{
+ margin-left: 4%;
+width: 32%;
+margin-right: 14%;
+}
+.My-education  .main p:last-of-type{
+  margin-top: 20px
+}
+
+
+.My-education  .exp h3{
+  color:#566366;
+  margin-top: 40px
+}
+.My-education  .exp span{
+  display: block;
+  color:#919191;
+  margin-bottom: 10px
+}
+.My-education  .exp .Geep{
+  background-color:#2ecc71;
+display: inline;
+color: white;
+padding: 5px ;
+font-size: small
+}
+.My-education .exp hr{
+   margin: 20px 0;
+   background-color:#cccccc;
+   height:1px;
+   border: 0;
+
+}
+.My-education hr{
+    margin: 80px 10%;
+   background-color:#cccccc;
+   height:1px;
+   border: 0;
+   
+}
+.My-education  .exp  p{
+  color:#919191;
+  line-height: 1.7
+}
+.My-education  .exp h3{
+  margin-top: 50px
+}
+
+.Testimonials {
+background-color: #f2f2f2;
+padding-top: 50px;
+padding-bottom: 80px;
+text-align: center}
+
+.Testimonials q{
+  color:#919191;
+  font-family: italic ;
+  line-height: 1.7;
+  font-size:19px
+}
+.Testimonials h3{
+  color:#566366;
+}
+.Testimonials ul{
+  list-style: none;
+text-align: center;
+padding: 0;
+
+}
+.Testimonials ul li{
+  width:  8px;
+  height: 8px;
+  display: inline-block;
+  border: 1px solid #2ecc71;
+  border-radius: 50%;
+  margin-top: 20px
+}
+.Testimonials ul li.active,.Testimonials ul li:hover{
+  background-color: #2ecc71
+}
+.Port{
+  padding-top: 30px;
+  padding-bottom: 30px;
+text-align: center
+}
+.Port .Work{
+  overflow: hidden;
+  margin: 50px 10%;
+}
+.Port .Work h2 {
+  color:#566366;
+  font-family: sans-serif;
+}
+.Port .Work p {
+  color:#aeaeae;
+  
+}
+.Port .Work > img {
+  float: left;
+  width: 33.333333%;
+  margin-bottom: 10px;
+
+}
+.Port .Work > img {
+  width: 92%;
+  margin: 30px
+}
+.Port .Work img{
+  margin-left: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 95%
+  
+}
+.contact {
+  background-color:#252e30;
+  overflow: hidden
+}
+.contact h2{
+  color: white;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  text-transform:  uppercase;
+  font-family: sans-serif
+}
+.contact p{
+  color:#919191
+}
+.contact .info,.contact .form{
+  float: left;
+  width: 45%;
+  margin-left: 5%
+}
+.contact .info{
+  font-size: 20px
+}
+.contact .info .ans{
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+.contact .info .osn{
+  color: white;
+  
+}
+.contact .info .osn span{
+  color: #919191
+}
+.contact .form{
+  margin-top: 105px;
+}
+.contact .form p{
+  color: white
+}
+.contact .form .sama{
+  width: 100%;
+  height: 50px;
+background-color:  #919191;
+margin-bottom: 20px;
+  border: 0
+}
+.contact .form .zah{
+   width: 100%;
+   height: 230px;
+   background-color:  #919191;
+   margin-bottom: 40px;
+     border: 0
+}
+.contact .form .Jam{
+  color: white;
+    background-color:#191f21;
+    padding: 20px 40px;
+    text-transform: uppercase;
+     font-family: sans-serif;
+     margin-bottom: 90px;
+     border: 0
+}
+.footer{
+  background-color:#191f21;
+  color:#4b5456;
+  text-align: center;
+  height: 90px;
+  padding: 30px 0
+}
+.footer .ans{
+  margin: 10px 0
+}
+.footer  .ahm {
+  padding-top: 10px
+}
+.footer div img{
+  height:35px;
+  width: 35px;
+ color:#4b5456;
+ 
+}
+.footer div img:hover{
+background-color: white;
+cursor: pointer;
+border-radius: 50%
+}
+</style>
+</head>
+    <body>
+  <div class="header">
+    <div class="slider">
+       <div class="intro">
+        <h2>Web&Graphic designer</h2>
+        <button>LEARN MORE </button>
+      
+    </div>  
+   
+    <div class="navbar">
+        <div class="container">
+            <h2>Fo<span>cal</span></h2>
+            <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Skills</a></li>
+                 <li><a href="#">Resume</a></li>
+                 <li><a href="#">Testemonials</a></li>
+                 <li><a href="#">Portfoilo</a></li>
+                 <li><a href="#">Contact me</a> </li>
+            </ul> 
+            
+        </div>
+    </div>
+  </div>
+ <!-- Start features-->
+ <div class="features">
+  <div class="container">
+    <div class="feat">
+       <div class="feat">
+      <h2>Values</h2>
+      <p class="ahm">This is first values I ever write in this website and I am  </p>
+    </div>
+    </div>
+     <div class="feat">
+        <h2>Goals</h2>
+      <p>This is first thing I ever done in this is app and I am so glad to helping that represented to me from other collegues</p>
+    </div>
+      <div class="feat">
+       <h2>Hobbies</h2>
+      <p>This is first thing I ever done in this is app and I am so glad to helping that represented to me from other collegues</p>
+    </div>
+  </div>
+ </div>
+ <div class="about-me">
+  <div class="container">
+    <div class="ima">
+      <img src="image.jpg10"alt="test">
+    </div>
+    <div class="inf">
+   <h2>About Me</h2>
+   <p>This is my first value I ever made Can I take your value p app and I am so glad to helping that representedlease app and I am so glad to helping that represented app and I am so glad to helping that represented</p>
+    <p>this is ioahodh afirstfirst first value I ever made Canfirst value I ever made Canvalue I ever made Can value I ever made Can</p>
+    <div class="Hobbies">
+      <div class="content">
+        <div class="icon">
+          <img src="icon.jpg9" alt="icon">
+        </div>
+        <div class="text">
+          <h3>WEB DESIGN</h3><p> is ioahodh  is this is ioahodh afirstfirst first value I ever made Canfirst value</p>
+        </div>
+      </div>
+       <div class="content">
+        <div class="icon">
+          <img src="icon.jpg8" alt="icon">
+        </div>
+        <div class="text">
+          <h3>ONLINE MARKETING</h3><p> is ioahodh  is this is ioahodh afirstfirst first value I ever made Canfirst value</p>
+        </div>
+      </div>
+        <div class="content">
+        <div class="icon">
+          <img src="icon.jpg7" alt="icon">
+        </div>
+        <div class="text">
+          <h3>GRAPHIC DESINGER</h3><p> is ioahodh  is this is ioahodh afirstfirst first value I ever made Canfirst value</p>
+        </div>
+      </div>
+         <div class="content">
+        <div class="icon">
+          <img src="icon.jpg6" alt="icon">
+        </div>
+        <div class="text">
+          <h3>SEO</h3><p> is ioahodh  is this is ioahodh afirstfirst first value I ever made Canfirst value</p>
+        </div>
+      </div>
+    </div>
+    </div>
+   
+  </div>
+ </div>
+ <!-- My skills -->
+ <div class="My-skills">
+  <div class="container">
+    <div class="skills">
+     <h2 > MY SKILLS </h2>
+     <p>  hThis is first thing I ever done in this is app and I am so glad to helping tThis is first thing I ever done in this is app and I am so glad to helping that represenhat represen </p>
+  <p>is first thing atoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thingos aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing</p>
+   <button>CONTACT ME</button>
+    </div>
+    
+    <div class="progress">
+     <div class="tech">
+      <h3>PHOTOSHOP</h3>
+      <div>
+     <span style="width: 90%;" >
+    90%
+     </span>
+     </div>
+     </div>
+       <div class="tech">
+      <h3>ILLUSTRATOR</h3>
+      <div>
+     <span style="width: 80%;" >
+    80%
+     </span>
+     </div>
+     </div>
+         <div class="tech">
+      <h3>HTML/CSS</h3>
+      <div>
+     <span style="width: 90%;" >
+    90%
+     </span>
+     </div>
+     </div>
+           <div class="tech">
+      <h3>PHP/MYSQL</h3>
+      <div>
+     <span style="width: 70%;" >
+    70%
+     </span>
+     </div>
+     </div>
+    </div>
+  </div>
+ </div>
+ <!-- Resume -->
+ <div class="Resume txt-align">
+  <div class="container">
+    <h2>Resume</h2>
+    <p>atoatoh os aodh oahdsf s sfd sdfsg sdf sf sf sf sf fg  iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this ih os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this i</p>
+  <p>this is i oihadoih aodh aodh oahdo haodh oadh oahdo haodfhoah fd sdf sdf sdf sfd sfd sf ohado</p>
+  <button>Donwnload Resume</button>
+  </div>
+ </div>
+ <!-- Education -->
+ <div class="My-education">
+  <div class="container">
+    <div class="main">
+     <h2> My education </h2>
+     <p> atoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this is app and I am so glad to helping that represend oahod haod aod hThis is first thing I ever done in this is app and I am so glad to helping tThis is first thing I ever done in this is app and I am so glad to helping that represenhat represen </p>
+      <p>this is ohoihaodh oaidh ohds ohdohas oahdohado hodh oadih oahdoh aodh hoadh oahd oahd oha ds d</p>
+    </div>
+    
+    <div class="exp">
+     <h3>GRAPHIC DESIGNER DIPLOMA</h3>
+     <span><strong>Reeves College</strong> / June 2008 - May 2010</span>
+     <span class="Geep">4.0 GPA </span>
+        <hr>
+      <p> in this is os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this is atoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this isos aodh oahd iaod aod ohdohadio </p>
+     <h3>CIT DIPLOMA</h3>
+     <span><strong>Reeves College</strong> / June 2008 - May 2010</span>
+     <span class="Geep">4.0 GPA </span>
+        <hr>
+      <p> in this is os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this is atoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this isos aodh oahd iaod aod ohdohadio </p>
+    </div>
+    </div>
+    <hr>
+        <div class="clearfix"></div>
+
+    <hr>
+     <div class="main mus">
+     <h2> Work Experience </h2>
+     <p > hThis is first thing I ever done in this is app and I am so glad to helping tThis<br> is first thing I ever done in this is app and <br>I am so glad to helping that represenhat represen </p>
+      <p>toh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first<br> thing toh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing </p>
+    </div>
+    
+    <div class="exp mah">
+    <h3>LED WEB DESIGNER </h3>
+     <span><strong>Reeves College</strong> / June 2008 - May 2010</span>
+     <span class="Geep">4.0 GPA </span>
+        <hr>
+      <p> is is atoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this isos aodh oahd iaod aod ohdohadio </p>
+     <h3>JUNIOR DESINGER</h3>
+     <span><strong>Reeves College</strong> / June 2008 - May 2010</span>
+     <span class="Geep" >4.0 GPA </span>
+        <hr>
+      <p> ne in this is atoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this isos aodh oahd iaod aod ohdohadio </p>
+     <h3>WEB DEVELOPER </h3>
+     <span><strong>Reeves College</strong> / June 2008 - May 2010</span>
+     <span class="Geep" >4.0 GPA </span>
+        <hr>
+      <p>oh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this isos aodh oahd iaod aod ohdohadio </p>
+    </div>    
+    </div>
+     
+    </div>
+  </div>
+ </div>
+
+
+ <div class="Testimonials">
+  <div class="container">
+   <q>atoatoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing atoatoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thingI everatoatoh os aodh oahd iaod aod ohdohadio oahd oahod atoatoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I everaohThis is first thing I ever done in this ih os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I ever done in this i</q>
+<h3>Ahmedbasher</h3>
+<ul>
+  <li></li>
+  <li class="active"></li>
+   <li></li>
+  <li></li>
+</ul>
+  </div>
+ </div>
+<div class="Port">
+  <div class="container">
+  <div class="Work"><h2>PORTFOLIO</h2><p>  os aodh oahd iaod aod ohdohadio aodh oahd iaod aod ohdohadioosos aodh oahd iaod aod ohdohadio aodh oahd iaod aod ohdohadio aodh oahd iaod aod ohdohadio aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I eoatoh os aodh oahd iaod aod ohdohadio oahd oahod aohThis is first thing I e </p></div>
+ <img src="image.jpg13" alt="img">
+ <img src="image.jpg13" alt="img">
+  <img src="image.jpg13" alt="img">
+  <img src="image.jpg13" alt="img">
+ <img src="image.jpg13" alt="img">
+  <img src="image.jpg13" alt="img">
+  <img src="image.jpg13" alt="img">
+ <img src="image.jpg13" alt="img">
+  <img src="image.jpg13" alt="img">
+  </div>
+</div>
+<div class="contact">
+  <div class="container">
+    <div class="info">
+      <h2>Contact me</h2>
+      <p>aoht oahoahodfh aod oahod haohdf oahido hoahdo haoh ohaoh <br>oahdof haohdf oahdof haooaho haodh ohaoh oahd <br>oahodh oahdo haohd ohaoh oah.</p>
+  <p class="ans">This is ohd <br> othoah oahd ohadofh <br>oih ohiao hoch co ohcv </p>
+ <p class="osn">Email:  <span>ahmedbasher.alsaidi@yahoo.com</span></p>
+  <p class="osn">Phone:  <span>009647809802097</span></p>
+
+    </div>
+    <div class="form">
+    <p>Name*</p> <input class="sama" type="text" placeholder="Your Name">
+    <p>E-mail Address*</p><input class="sama" type="email" placeholder="Your E-mail">
+    <p>Email Address</p><input class="zah" type="text" placeholder="Your E-mail adress">
+     <input class="Jam"type="submit" value="Contact Me" >
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="ans">Copy Right &copy; 2014 Focal </div>
+   <div class="ahm"> <img src="icon.jpgfac">
+      <img src="icon.jpggo">
+        <img src="icon.jpgtwit">
+          <img src="icon.jpgfac">
+      <img src="icon.jpggo">
+          <img src="icon.jpggo">
+      
+        </div>                     
+  </div>
+</div>
+<script src="main.js"></script>
+    </body>
+    </html>

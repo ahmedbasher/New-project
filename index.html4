@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Learn JavaScript</title>
+    </head>
+    <body>
+        <div id="Ahmed"> </div>
+        
+       <script src="main.js"> </script>
+        
+    </body>
+    
+</html>

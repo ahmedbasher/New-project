@@ -1,0 +1,68 @@
+ body{
+background-color: White ;
+height: 2000px
+}
+.container{
+    width: 1170px;
+    margin: auto
+}
+
+.header .navbar{
+    background-color:#252e30;
+    color: white;
+     overflow: hidden;
+    
+}
+.header .navbar h2{
+float:left;
+margin-left: 20px
+}
+.header .navbar h2 span{
+   color:#2ecc71 
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    float: right 
+    
+   
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px
+}
+.header .navbar ul li:hover{
+   color:#2db768
+}
+/*features*/
+.features{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px
+   
+}
+.features .feat{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+    background-color:#DDD}
+    
+.features .feat h2{
+    text-transform: uppercase
+}
+/*About-me*/
+.about-me{
+background-color:#f2f2f2;
+}
+.about-me .ima{
+    float: left
+}
+.about-me .inf {
+    float: right
+}
+
+
+
+
+
+
